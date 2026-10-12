@@ -1,5 +1,7 @@
 # Catatan Penggunaan AI (AI_LOG.md)
 
+## Milestone sec-0.1 (Kriptografi)
+
 - **Alat AI yang Digunakan:** Gemini (Google)
 - **Tujuan Penggunaan:** Membantu memahami instruksi tugas, membuat draft Komponen kriptografi (secrets & hashlib), menyusun skenario uji pytest, dan menghindari error saat eksekusi di terminal.
 
@@ -21,3 +23,14 @@
 - Saya membaca setiap baris kode yang dihasilkan, dan memastikan modul yang dipakai hanya modul bawaan Python (secrets & hashlib).
 - Saya membuktikan kebenaran kode dengan menjalankannya secara manual di terminal VS Code.
 - Saya memastikan hasil `pytest` lulus validasi (4 passed).
+
+## Milestone sec-0.1 (Keamanan Komputasi dan Siber)
+
+- **Tanggal:** 12 Oktober 2026
+- **Alat AI:** Google Gemini
+- **Tujuan Penggunaan:**
+  - Perancangan inventaris aset formal (fisik, logis, data sensitif, penyimpanan) pada `security/asset-inventory.md`.
+  - Pemodelan Data Flow Diagram (DFD) Level 0 dan Level 1 dengan identifikasi Trust Boundaries (TB-01, TB-02) dan penandaan komponen kriptografi pada `security/dfd.md`.
+  - Formulasi 10 skenario ancaman spesifik menggunakan taksonomi STRIDE yang terhubung ke elemen DFD pada `security/threat-model.md`.
+  - Penilaian matriks risiko kemungkinan-dampak berbasis konteks operasional produk serta pemetaan 5 rencana kontrol mitigasi ke Tugas 2 dan Tugas 3 pada `security/risk-register.md`.
+- **Verifikasi Mandiri:** Seluruh ID elemen diagram, skenario ancaman, dan nilai matriks risiko telah ditinjau dan divalidasi sesuai arsitektur teknis produk AnonPulse tanpa menggunakan nilai generik.
