@@ -1,0 +1,16 @@
+# Dependensi & Hasil Build Frontend (Node.js)
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Cache Lingkungan Python & Pytest (Kriptografi)
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+env/
+
+# Berkas Pengaturan Sistem Operasi & Editor
+.DS_Store
+Thumbs.db
+.vscode/
